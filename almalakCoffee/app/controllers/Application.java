@@ -3,13 +3,13 @@ package controllers;
 import models.User;
 import models.utils.AppException;
 import play.Logger;
+import play.cache.Cached;
 import play.data.Form;
 import play.data.validation.Constraints;
 import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
 import views.html.index;
-
 import static play.data.Form.form;
 
 /**
@@ -31,6 +31,7 @@ public class Application extends Controller {
      *
      * @return login page or dashboard
      */
+    @Cached(key = "homepage")
     public static Result index() {
         // Check that the email matches a confirmed user before we redirect
         String email = ctx().session().get("email");
