@@ -1,0 +1,25 @@
+New log file opened at Fri Dec 11 10:18:27 PST 2015 by 4712@fadih-PC
+Taking next connection to: 56388
+New client attempting to connect on port: 56389-56388
+  Address = /10.0.0.6:56388
+This client on port 56389 has uuid 7b05e357-cecc-416d-8969-3355cd039b28 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-7b05e357-cecc-416d-8969-3355cd039b28
+Taking next connection to: 56388
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56388
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56388
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56388
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56388
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4712@fadih-PC logs at Fri Dec 11 10:33:27 PST 2015, goodbye.

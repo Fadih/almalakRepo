@@ -1,0 +1,7 @@
+# Messages
+
+runs.listRuns.title={0,choice,0#No runs|1#One run|1<{0,number,integer} runs} found
+jobResults.listJobResults.title={0,choice,0#No device|1#One device|1<{0,number,integer} devices} found
+testResults.listTestResults.title={0,choice,0#No test|1#One test|1<{0,number,integer} tests} found
+
+
